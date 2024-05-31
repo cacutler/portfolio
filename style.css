@@ -3,3 +3,44 @@
     margin: 0;
     padding: 0;
 }
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem;
+}
+.resume {
+    margin: 1rem;
+    padding: 1rem;
+}
+.connect {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem;
+}
+.header-navigation {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+    margin: 1rem;
+}
+.resume-bar {
+    margin: 0.75rem;
+}
+.footer-navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav a, a {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
